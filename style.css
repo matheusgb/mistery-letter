@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+#carta-contador {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+#topo {
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 60px;
+}
+
+#carta-gerada {
+  width: fit-content;
+  height: fit-content;
+  word-wrap: break-word;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+span {
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
+  display: inline-block;
+}
+
+.newspaper {
+  background-color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url('images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.skewleft {
+  transform:
+    rotate(-5deg) skewX(10deg);
+}
+
+.skewright {
+  transform:
+    rotate(5deg) skewX(-10deg);
+}
+
+.rotateleft {
+  transform: rotate(-5deg) skewX(-10deg);
+}
+
+.rotateright {
+  transform: rotate(5deg) skewX(-10deg);
+}
